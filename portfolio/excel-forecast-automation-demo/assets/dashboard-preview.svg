@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#f6f8fa"/>
+  <rect x="40" y="30" width="1120" height="70" rx="8" fill="#1f4e78"/>
+  <text x="600" y="74" text-anchor="middle" font-family="Segoe UI,Arial" font-size="28" font-weight="700" fill="white">Sales Forecast Integration Demo</text>
+
+  <text x="60" y="140" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="#333">Customer</text>
+  <rect x="150" y="116" width="190" height="36" rx="5" fill="white" stroke="#b8c2cc"/>
+  <text x="170" y="140" font-family="Segoe UI,Arial" font-size="16" fill="#333">All ▾</text>
+  <text x="380" y="140" font-family="Segoe UI,Arial" font-size="17" font-weight="700" fill="#333">Month</text>
+  <rect x="450" y="116" width="150" height="36" rx="5" fill="white" stroke="#b8c2cc"/>
+  <text x="470" y="140" font-family="Segoe UI,Arial" font-size="16" fill="#333">2026-04</text>
+
+  <g font-family="Segoe UI,Arial">
+    <rect x="60" y="185" width="235" height="105" rx="9" fill="#eef5fb" stroke="#5b9bd5"/>
+    <text x="177" y="215" text-anchor="middle" font-size="16" font-weight="700" fill="#3a4a5b">Latest Forecast</text>
+    <text x="177" y="260" text-anchor="middle" font-size="30" font-weight="700" fill="#1f4e78">6,839</text>
+
+    <rect x="320" y="185" width="235" height="105" rx="9" fill="#eef5fb" stroke="#5b9bd5"/>
+    <text x="437" y="215" text-anchor="middle" font-size="16" font-weight="700" fill="#3a4a5b">Yearly Baseline</text>
+    <text x="437" y="260" text-anchor="middle" font-size="30" font-weight="700" fill="#1f4e78">6,930</text>
+
+    <rect x="580" y="185" width="235" height="105" rx="9" fill="#eef5fb" stroke="#5b9bd5"/>
+    <text x="697" y="215" text-anchor="middle" font-size="16" font-weight="700" fill="#3a4a5b">Actual Shipment</text>
+    <text x="697" y="260" text-anchor="middle" font-size="30" font-weight="700" fill="#1f4e78">6,360</text>
+
+    <rect x="840" y="185" width="300" height="105" rx="9" fill="#fff5f3" stroke="#c95b4b"/>
+    <text x="990" y="215" text-anchor="middle" font-size="16" font-weight="700" fill="#3a4a5b">Variance vs Baseline</text>
+    <text x="990" y="260" text-anchor="middle" font-size="30" font-weight="700" fill="#c00000">-91</text>
+  </g>
+
+  <rect x="60" y="330" width="700" height="285" rx="8" fill="white" stroke="#d0d7de"/>
+  <text x="85" y="365" font-family="Segoe UI,Arial" font-size="19" font-weight="700" fill="#333">Forecast / Baseline / Actual Trend</text>
+  <line x1="100" y1="570" x2="720" y2="570" stroke="#888"/>
+  <line x1="100" y1="400" x2="100" y2="570" stroke="#888"/>
+  <g stroke="#e5e7eb">
+    <line x1="100" y1="525" x2="720" y2="525"/>
+    <line x1="100" y1="480" x2="720" y2="480"/>
+    <line x1="100" y1="435" x2="720" y2="435"/>
+  </g>
+  <polyline points="115,510 225,490 335,486 445,465 555,430 665,385" fill="none" stroke="#2f75b5" stroke-width="4"/>
+  <polyline points="115,530 225,515 335,500 445,485 555,470 665,450" fill="none" stroke="#70ad47" stroke-width="4"/>
+  <polyline points="115,550 225,520 335,505 445,495 555,485 665,570" fill="none" stroke="#ed7d31" stroke-width="4"/>
+  <g font-family="Segoe UI,Arial" font-size="13" fill="#555">
+    <text x="105" y="592">Jan</text><text x="215" y="592">Feb</text><text x="325" y="592">Mar</text><text x="435" y="592">Apr</text><text x="545" y="592">May</text><text x="655" y="592">Jun</text>
+  </g>
+  <g font-family="Segoe UI,Arial" font-size="13" fill="#444">
+    <rect x="170" y="610" width="18" height="4" fill="#2f75b5"/><text x="195" y="616">Latest Forecast</text>
+    <rect x="330" y="610" width="18" height="4" fill="#70ad47"/><text x="355" y="616">Yearly Baseline</text>
+    <rect x="490" y="610" width="18" height="4" fill="#ed7d31"/><text x="515" y="616">Actual Shipment</text>
+  </g>
+
+  <rect x="790" y="330" width="350" height="285" rx="8" fill="white" stroke="#d0d7de"/>
+  <text x="815" y="365" font-family="Segoe UI,Arial" font-size="19" font-weight="700" fill="#333">Import Validation</text>
+  <g font-family="Segoe UI,Arial" font-size="16">
+    <text x="825" y="410" fill="#18794e">✓ Alpha Precision: 18 rows</text>
+    <text x="825" y="447" fill="#9a6700">⚠ Beta Motion: 1 warning</text>
+    <text x="825" y="484" fill="#18794e">✓ Actual Shipment: 30 rows</text>
+    <text x="825" y="540" fill="#555">Traceable source file</text>
+    <text x="825" y="570" fill="#555">Mapping / adapter based</text>
+  </g>
+</svg>
