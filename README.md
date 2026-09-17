@@ -45,6 +45,9 @@ Report / Dashboard / History
 
 ## Public Projects
 
+### [Excel Forecast Automation Demo](portfolio/excel-forecast-automation-demo)
+Synthetic manufacturing-data portfolio demo showing **different customer forecast formats → standardized schema → baseline / actual comparison → dashboard / validation**. Includes a downloadable Excel workbook, VBA adapter/reference source, mapping examples, and sample input files.
+
 ### [OBS Canvas Rescaler](https://github.com/circerio/obs-canvas-rescaler)
 Browser-based local tool for comparing effective OBS Virtual Camera resolutions and browser-side rescaling behavior. Includes a complete local workflow, presets, launch scripts, and troubleshooting documentation.
 
