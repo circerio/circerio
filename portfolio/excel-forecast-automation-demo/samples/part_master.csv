@@ -1,0 +1,7 @@
+Customer,CustomerPartNo,InternalPartNo,Description
+Alpha Precision,A-1001,P-1001,Servo Housing
+Alpha Precision,A-1002,P-1002,Drive Shaft
+Alpha Precision,A-1003,P-1003,Sensor Bracket
+Beta Motion,BM-X01,P-1001,Servo Housing
+Beta Motion,BM-X02,P-1004,Control Plate
+Beta Motion,BM-X03,P-1005,Guide Rail
