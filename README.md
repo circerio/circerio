@@ -57,12 +57,6 @@ I take things apart to find out what they are *actually* doing. Sometimes I put 
 
 `Public record: Windows preview.`
 
-### 05 / THE PIXELS THAT LIED
-
-**[OBS Canvas Rescaler](https://github.com/circerio/obs-canvas-rescaler)** — A local browser tool for the uncomfortable possibility that fewer effective pixels can produce a better-looking result.
-
-`Public record: usable local tool and reproducible comparisons.`
-
 ---
 
 ## LAB NOTES
